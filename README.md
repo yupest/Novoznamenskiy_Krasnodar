@@ -34,7 +34,7 @@
 |category| категория ru
 
 ## 1.3 (10.10)
-Возможные категории. В скобках количество мест. Через двоеточие `types` Google Places: https://developers.google.com/maps/documentation/places/web-service/supported_types?hl=ru.
+Возможные категории (тот же текст представлен в файле `распределение категорий.txt`). В скобках количество мест. Через двоеточие `types` Google Places: https://developers.google.com/maps/documentation/places/web-service/supported_types?hl=ru.
 
 Магазин (4000) = гипермаркет, супермаркет, одежды, продукты:
 'home_goods_store, furniture_store, clothing_store, grocery_or_supermarket, electronics_store, supermarket, liquor_store, jewelry_store, shoe_store, pet_store, shopping_mall, book_store, convenience_store, department_store, bicycle_store, movie_rental, hardware_store'
