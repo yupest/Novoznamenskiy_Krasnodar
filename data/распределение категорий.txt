@@ -8,7 +8,7 @@
 'school, university, secondary_school, primary_school'
 
 Здоровье (560) = аптека, клиника, больница:
-'health, pharmacy, dentist, hospital, drugstore, veterinary_care, doctor'
+'pharmacy, dentist, hospital, drugstore, veterinary_care, doctor'
 
 Спорт (115) = спортзал, стадион:
 'gym, stadium'
@@ -33,10 +33,10 @@
 'bowling_alley, art_gallery, movie_theater, place_of_worship, library'
 
 Локальности(32) - почти нет отзывов
-'locality, neighborhood, sublocality, sublocality_level_2, sublocality_level_1, airport, cemetery'
+'locality, political, neighborhood, sublocality, sublocality_level_2, sublocality_level_1, airport, cemetery'
 
 Остановки (235):
 'bus_station, light_rail_station, transit_station'
 
 Остальное:
-'accounting, storage, local_government_office, finance, lodging, general_contractor, atm, night_club, parking, courthouse, premise, fire_station, police, political, roofing_contractor, embassy'
+'accounting, storage, local_government_office, finance, lodging, general_contractor, atm, night_club, parking, courthouse, premise, fire_station, police,  roofing_contractor, embassy'
