@@ -61,7 +61,7 @@
 2. Далее с помощью метода MinMaxScaler() были нормированы показатели: количество фото, количество отзывов, рейтинг и найдена целевая функция в виде суммы таких показателей.
 
 **Результат:**
-Датасет [places_GP.csv](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/data/places_GP.csv.csv) 
+Датасет [places_GP.csv](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/data/places_GP.csv) 
 |поле|обозначение|
 |:--|:--|
 |geometry|точечные данные с широтой и долготой
@@ -86,5 +86,5 @@
 
 Остальные категории имеют такие же значения, как и в `category_2`.
 
-## Визуализация ([notebooks/5 - Visualization.ipynb](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/notebooks/4%20-%Visualization.ipynb))
+## Визуализация ([notebooks/5 - Visualization.ipynb](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/notebooks/5%20-%20Visualization.ipynb))
 
