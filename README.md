@@ -88,3 +88,41 @@
 
 ## Визуализация ([notebooks/5 - Visualization.ipynb](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/notebooks/5%20-%20Visualization.ipynb))
 
+## Сентимент-анализ ([notebooks/7 - Text analysis.ipynb](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/notebooks/7%20-%20Text%20analysis.ipynb))
+
+**Результат:**
+Датасет [places_GP_sent.csv](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/data/places_GP_sent.csv) 
+
+(описано только то, что добавлено в `places_GP`)
+
+|поле|обозначение|
+|:--|:--|
+|count_downloaded| количество загруженных отзывов
+|count_filled| количество заполненных отзывов
+|count_pos| количество позитивных отзывов
+|count_neg| количествонегативных отзывов
+|count_neutral| количество нейтральных отзывов
+|median_score| медиана сентиментов отзывов
+|median_negative| медиана сентиментов отзывов среди негативных
+|median_positive| медиана сентиментов отзывов среди позитивных
+
+Датасет [places_GP_attractors.csv](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/data/places_GP_attractors.csv) 
+
+Срез по аттракторам:
+```
+252              Городской сад, парк культуры и отдыха
+1609                                  Парк «Краснодар»
+1616                            Стадион ФК "Краснодар"
+15196    Ботанический сад им. И.С. Косенко (Дендрарий)
+15198                                Чистяковская Роща
+15207                            Сквер им. Г.К. Жукова
+15233                                    Мост Поцелуев
+15248                             Екатерининский сквер
+15267     Парк культуры и отдыха имени 30-летия Победы
+15297                               ЦПКиО им. Горького
+```
+
+Просмотреть визуализацию по сентиментам всех мест и аттракторов: https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/notebooks/9%20-%20Visualisation%20sentiments/9%20-%20Analysis%20and%20Visualization%20of%20reviews.md#анализ-сентиментов 
+
+
+
