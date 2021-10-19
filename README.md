@@ -13,12 +13,14 @@
 4. Удалены дубликаты мест: те места, которые попадают в оранжевую зону, могли записаться несколько раз.
 
 **Результат:**
+
 Датасет [raw_data.csv](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/data/raw_data.csv)содержит сырые данные первого сбора через GP API (в последствии локально обновлялся для сбора доп мест). По ним 99 уникальных категорий. Мест туристической привлекательности: 14. 
 
 ## Cбор метаданных ([notebooks/2 - Collecting metadata.ipynb](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/notebooks/2%20-%20Collecting%20metadata.ipynb) )
 Сырые данные преобразованы в нормальный вид (парсинг GP с помощью библиотеки `selenium`): собраны русскоязычные названия и категории мест от GP.
 
 **Результат:**
+
 Датасет [places_GP_temp.csv](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/data/places_GP_temp.csv.csv) 
 |поле|обозначение|
 |:--|:--|
@@ -61,6 +63,7 @@
 2. Далее с помощью метода MinMaxScaler() были нормированы показатели: количество фото, количество отзывов, рейтинг и найдена целевая функция в виде суммы таких показателей.
 
 **Результат:**
+
 Датасет [places_GP.csv](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/data/places_GP.csv) 
 |поле|обозначение|
 |:--|:--|
@@ -91,6 +94,7 @@
 ## Сентимент-анализ ([notebooks/7 - Text analysis.ipynb](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/notebooks/7%20-%20Text%20analysis.ipynb))
 
 **Результат:**
+
 Датасет [places_GP_sent.csv](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/data/places_GP_sent.csv) 
 
 (описано только то, что добавлено в `places_GP`)
@@ -121,6 +125,10 @@
 15267     Парк культуры и отдыха имени 30-летия Победы
 15297                               ЦПКиО им. Горького
 ```
+
+Датасет [places_GP_top10.csv](https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/data/places_GP_top10.csv) 
+
+Выборка лучших по нормированному рейтингу `rating_by_category` 10 мест по каждой категории.
 
 Просмотреть визуализацию по сентиментам всех мест и аттракторов: https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/notebooks/9%20-%20Visualisation%20sentiments/9%20-%20Analysis%20and%20Visualization%20of%20reviews.md#анализ-сентиментов 
 
