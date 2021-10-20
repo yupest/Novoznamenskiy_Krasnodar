@@ -130,7 +130,7 @@
 
 Выборка лучших по нормированному рейтингу `rating_by_category` 10 мест по каждой категории.
 
-Просмотреть визуализацию по сентиментам всех мест и аттракторов: https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/notebooks/9%20-%20Visualisation%20sentiments/9%20-%20Analysis%20and%20Visualization%20of%20reviews.md#анализ-сентиментов 
+Просмотреть визуализацию по сентиментам всех мест и аттракторов: https://github.com/yupest/Novoznamenskiy_Krasnodar/blob/main/notebooks/9%20-%20Analysis%20and%20Visualization%20of%20reviews/9%20-%20Analysis%20and%20Visualization%20of%20reviews.md
 
 
 
